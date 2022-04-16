@@ -1,2 +1,2 @@
-# odin-landin-page
+# odin-landing-page
 Odin landing page as part of flex tutorials
