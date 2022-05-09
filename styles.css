@@ -1,0 +1,159 @@
+body{
+    font-family: Roboto, Arial, 'Times New Roman', Times, serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 0px 50px;
+}
+
+.headright{
+    display: flex;
+    gap: 50px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.box1{
+    display: flex;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    align-items: center;
+    justify-content: center;
+    flex: auto;
+    padding: 52px;
+}
+
+.content{
+    display: flex;
+    gap: 15px;
+
+}
+
+.left-b1{
+    flex-wrap: wrap;
+    width: 500px;
+    height: 300px;
+}
+
+.mtext{
+    font-size: 48px;
+    font-weight: bolder;
+    margin: 0%;
+}
+
+.right-b1{
+    width: 500px;
+    height: 300px;
+    background-image: url(img/gshep.jpg);
+    background-size: 100%;
+    border: 0;
+}
+
+/*  CSS for the second box of contents  */
+.box2{
+    background-color: #F9FAF8;
+    color: #1F2937;
+    padding-bottom: 53px;
+   /* padding: 52px; Posiblemente innecesario */
+}
+
+.bboxes{
+    display: flex;
+    flex: auto;
+    justify-content: center;
+    gap: 52px; 
+}
+
+.bbox1, .bbox2, .bbox3, .bbox4{
+    max-width: 200px;
+    text-align: center;
+}
+
+.subtitle{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.sqphoto{
+    max-width: 200px;
+    border-radius: 10%;
+    border: 3px solid #1880d5;
+}
+
+
+button{
+    background-color: #3882F6;
+    color: white;
+    text-decoration: none;   
+    border: none;
+    padding: 8px 30px;
+    border-radius: 10px;
+}
+
+.box3{
+    background-color: #E5E7EB;
+    padding: 100px 300px;
+}
+
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: 300;
+}
+
+.signed{
+    color: #1F2937;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.box4{
+    padding: 100px 150px;
+}
+
+.bbbox{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 100px;
+    border-radius: 10px;
+}
+
+.b3bt{
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.b3st{
+    font-size: 18px;
+    font-weight: 300;
+    margin: 0;
+}
+
+.buttond{
+    border: 2px solid #F9FAF8 ;
+}
+
+.footer{
+    background-color: #1F2937;
+    color: #F9FAF8;
+    text-align: center;
+    padding: 25px;
+}
