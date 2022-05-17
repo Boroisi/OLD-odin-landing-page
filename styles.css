@@ -157,3 +157,12 @@ button{
     text-align: center;
     padding: 25px;
 }
+
+button{
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
